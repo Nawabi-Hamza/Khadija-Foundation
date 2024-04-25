@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+:root{
+  --primary-color: #f4b183;
+  --secondary-color: #f4b183;
+}
+
+/* ---------------Custon Style Public--------------- */
+#custom-button{
+  background-color: var(--primary-color);
+  color: rgba(0, 0, 0, 0.5);
+  transition: .5s;
+}
+#custom-button:hover{
+  color: white;
+  transform: translateY(-10px);
+}
+.text-half-dark {
+  color: rgba(0, 0, 0, 0.4);
+}
+.first-color{
+  color: var(--primary-color) !important;
+}

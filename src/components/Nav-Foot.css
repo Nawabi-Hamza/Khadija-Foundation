@@ -1,0 +1,66 @@
+
+
+
+.active{
+    color: var(--primary-color) !important;
+}
+.navbar .nav-link{
+    font-size: 1.2em!important;
+}
+.navbar .nav-link:hover{
+    color: var(--primary-color) ;
+}
+.donate-btn{
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    border-radius: .4em;
+    transition: .4s;
+}
+
+.donate-btn:hover{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+.custom-footer-i{
+    color: var(--primary-color) !important;
+    transition: .5s !important;
+}
+
+.custom-footer-i:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.footer #custom-btn{
+    color: rgba(17, 17, 26, .3);
+    border-color: rgba(17, 17, 26, 0.1)!important;
+    transition: 1s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px !important;
+}
+.footer #custom-btn:hover{
+    /* background-color: var(--primary-color); */
+    color: var(--primary-color)!important;
+    border-color: var(--primary-color)!important;
+
+}
+
+.footer h2{
+    margin-bottom: 1em;
+}
+.footer .nav-link{
+    margin-bottom: .5em;
+    transition: .3s;
+}
+.footer .nav-link:hover{
+    color: var(--primary-color);
+    transform: translateX(10px);
+}
+
+
+
+
+#btn-navbar-toggle{
+    color: var(--primary-color);
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px !important;
+}
