@@ -1,7 +1,7 @@
 
 
 import React, { useEffect, useState } from 'react'
-
+import Hamza from "../images/Hamza.jpg"
 const data = [
     {
         id:1,
@@ -11,9 +11,9 @@ const data = [
     },
     {
         id:2,
-        img:"https://hamza-nawabi.netlify.app/img/profile.jpg",
+        img:Hamza,
         name:"Hamza Nawabi",
-        job:'Developer'
+        job:'Web Developer'
     },
     {
         id:3,
