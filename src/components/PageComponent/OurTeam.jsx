@@ -37,7 +37,7 @@ function OurTeam() {
             setShowData(data)
         }
     },[])
-  return (
+  return (       
     <>
         <div className="team py-md-5">
             <div className="container-md">
@@ -45,10 +45,6 @@ function OurTeam() {
                 <p className="display-2 mt-4 fw-500 h4 text-muted">Meet Our Team</p>
                 <h2 className='text-half-dark'>Awesome Guys Behind Our Foundation Activities</h2>
             </div><br /><br />
-                <div className="section-header text-center">
-                    <h2 className="my-text my-4 fw-bold display-2"></h2>
-                    <h2 className="my-4"></h2>
-                </div>
                 <div className="row">
                     {showData.map(item=>(
                         <div className="col-lg-3 col-md-6 mb-3" key={item.id}>
