@@ -60,11 +60,11 @@ function Footer() {
                 <Link className="nav-link" to="/news">
                   New Work
                 </Link>
-                <Link className="nav-link" to="/news">
-                  Contact Us
-                </Link>
                 <Link className="nav-link" to="/about">
                   About Us
+                </Link>
+                <Link className="nav-link" to="/login">
+                  Login
                 </Link>
               </div>
             </div>

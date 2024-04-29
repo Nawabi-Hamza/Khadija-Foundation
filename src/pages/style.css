@@ -1,0 +1,19 @@
+
+
+/* ===========Login Page========== */
+.btn.form-control.first-color{
+    transition: .8s !important;
+}
+.btn.form-control.first-color:hover{
+    background-color:  var(--primary-color);
+    color: white !important ;
+}
+#second-color{
+    color: #843c0b !important;
+  }
+
+input[name="email"]::placeholder,
+input[name="password"]::placeholder{
+    color: var(--primary-color);
+    opacity: .4;
+}

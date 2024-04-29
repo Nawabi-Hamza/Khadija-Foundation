@@ -9,6 +9,8 @@ import News from "../pages/News.jsx";
 import About from "../pages/About.jsx";
 import Donate from "../pages/Donate.jsx";
 import ContactPage from "../pages/Contact.jsx";
+import Login from "../pages/Login.jsx";
+import Register from "../pages/Register.jsx";
 
 function RouterPages() {
   return (
@@ -22,6 +24,8 @@ function RouterPages() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/donate" element={<Donate />} />
         </Route>
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );
