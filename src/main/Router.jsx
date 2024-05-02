@@ -11,8 +11,12 @@ import Donate from "../pages/Donate.jsx";
 import ContactPage from "../pages/Contact.jsx";
 import Login from "../pages/Login.jsx";
 import Register from "../pages/Register.jsx";
+import { useAuth } from "./AuthContext.jsx";
+// Dashboard
+import Main from "../Dashboard/MainDashboard.jsx";
 
 function RouterPages() {
+  const { user } = useAuth()
   return (
     <BrowserRouter>
       <Routes>
@@ -24,8 +28,16 @@ function RouterPages() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/donate" element={<Donate />} />
         </Route>
+          {/* Dashboard */}
+          {user && 
+            user.token &&
+              <Route path="/dashboard" element={<Main />} >
+
+              </Route>
+          }
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/*" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );

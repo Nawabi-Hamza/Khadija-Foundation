@@ -12,8 +12,24 @@
     color: #843c0b !important;
   }
 
+input[name="username"]::placeholder,
 input[name="email"]::placeholder,
-input[name="password"]::placeholder{
+input[name="password"]::placeholder,
+input[name="confirmPassword"]::placeholder{
     color: var(--primary-color);
     opacity: .4;
+}
+
+.Error,
+.Succes{
+    background-color: rgba(255, 0, 0, 0.495);
+    color: white;
+    text-align: start;
+    padding: .5em 1em; 
+    border-radius: 5px;
+    margin: 1em auto;
+}
+.Succes{
+    background-color: rgba(7, 255, 3, 0.404);
+    color: #843c0b;
 }

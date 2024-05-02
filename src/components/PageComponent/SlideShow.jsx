@@ -35,6 +35,7 @@ function SlideShow() {
                   data-bs-target="#carouselExampleDark"
                   data-bs-slide-to={item}
                   aria-label={`Slide ${item}`}
+                  key={item}
                 ></button>
               ) : null
             )}
